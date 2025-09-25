@@ -1,8 +1,0 @@
-[Desktop Entry]
-
-Name=42_Paris
-Comment=Accès rapide au dossier "42_Paris_2023"
-Exec=nautilus /home/mechard/Documents/Ecole_42/42_Paris/42_Paris_2023
-Icon=/home/mechard/Pictures/Icones/42_folder.png
-Terminal=false
-Type=Application

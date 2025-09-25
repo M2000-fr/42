@@ -1,9 +1,0 @@
-[Desktop Entry]
-
-Name=Partagé
-Comment=Accès rapide au dossier "Partagé" de Google Drive
-Exec=nautilus /home/mechard/GoogleDrive/Partagé
-Icon=/home/mechard/Pictures/Icones/G_folder.png
-Terminal=false
-Type=Application
-
