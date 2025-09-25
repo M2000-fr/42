@@ -1,0 +1,8 @@
+[Desktop Entry]
+
+Name=In_progress
+Comment=Accès rapide au dossier "In_progress"
+Exec=nautilus /home/mechard/Documents/Ecole_42/42_Paris/42_Paris_2023/Cursus_2023/Projects/In_progress
+Icon=/home/mechard/Pictures/Icones/In_progress.svg
+Terminal=false
+Type=Application

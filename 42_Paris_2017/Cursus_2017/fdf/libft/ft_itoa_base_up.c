@@ -1,0 +1,43 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa_base_up.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tarchen <tarchen@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/02/19 16:26:25 by tarchen           #+#    #+#             */
+/*   Updated: 2017/08/31 15:20:21 by tarchen          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "./includes/libft.h"
+
+char			*ft_itoa_base_up(int val, int base)
+{
+	char		*buf;
+	char		*tmp;
+	int			i;
+	int			tmp_val;
+
+	if (!val)
+	{
+		buf = ft_strdup("0");
+		return (buf);
+	}
+	if (base < 2 || base > 36)
+		return (NULL);
+	tmp_val = val;
+	if (val < 0)
+		val *= -1;
+	i = ft_strlen(STR_BASE_MAJ);
+	tmp = try_malloc(sizeof(char) * 65, _FL_);
+	while (val && i)
+	{
+		tmp[i] = STR_BASE_MAJ[val % base];
+		i--;
+		val /= base;
+	}
+	buf = ft_strdup(&tmp[i + 1]);
+	ft_strdel(&tmp);
+	return (tmp_val < 0 ? ft_strjoin("-", buf) : buf);
+}

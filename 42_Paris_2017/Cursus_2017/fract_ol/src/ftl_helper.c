@@ -1,0 +1,86 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ftl_helper.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: maechard <maechard@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/08/06 09:27:27 by maechard          #+#    #+#             */
+/*   Updated: 2018/08/06 09:27:29 by maechard         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../include/ftl.h"
+
+int		ftl_create_rgb(int r, int g, int b)
+{
+	return (((r & 0xff) << 16) + ((g & 0xff) << 8) + ((b & 0xff)));
+}
+
+void	ftl_change_fractol(char *name_ftl, t_env *e)
+{
+	if (ft_strcmp("mandelbrot", name_ftl) == 0)
+		e->ftl_ptr = &(e->ftl_arr[0]);
+	else if (ft_strcmp("julia", name_ftl) == 0)
+		e->ftl_ptr = &(e->ftl_arr[1]);
+	else if (ft_strcmp("carpet", name_ftl) == 0)
+		e->ftl_ptr = &(e->ftl_arr[2]);
+	else if (ft_strcmp("b_ship", name_ftl) == 0)
+		e->ftl_ptr = &(e->ftl_arr[3]);
+	else if (ft_strcmp("mandelbar", name_ftl) == 0)
+		e->ftl_ptr = &(e->ftl_arr[4]);
+}
+
+void	ftl_key_hook_change_fractal(int keycode, t_env *e)
+{
+	if (keycode == KEY_KP_1)
+		ftl_change_fractol("mandelbrot", e);
+	else if (keycode == KEY_KP_2)
+		ftl_change_fractol("julia", e);
+	else if (keycode == KEY_KP_3)
+		ftl_change_fractol("carpet", e);
+	else if (keycode == KEY_KP_4)
+		ftl_change_fractol("b_ship", e);
+	else if (keycode == KEY_KP_5)
+		ftl_change_fractol("mandelbar", e);
+}
+
+void	ftl_key_hook_change_color(int keycode, t_env *e)
+{
+	if (keycode == KEY_1)
+		ftl_color_change(0, e);
+	else if (keycode == KEY_2)
+		ftl_color_change(1, e);
+	else if (keycode == KEY_3)
+		ftl_color_change(2, e);
+	else if (keycode == KEY_4)
+		ftl_color_change(3, e);
+}
+
+void	ftl_put_iter(int keycode, t_env *e)
+{
+	int		nb;
+	int		i;
+
+	nb = e->ftl_ptr->iter_max;
+	i = 0;
+	ft_putstr("\E[H");
+	ft_putstr("Pour augmenter le nombre d'iteration : PAGE UP\n");
+	ft_putstr("Pour baisser le nombre d'iteration   : PAGE DOWN\n");
+	ft_putstr("Zoom                                 : SCROLL, +, -\n");
+	ft_putstr("POV                                  : W, A, S, D et");
+	ft_putstr(" les fleches directionnelles\n");
+	ft_putstr("     Mandelbrot                      : 1 ");
+	ft_putstr("(plusieurs iterations)\n");
+	ft_putstr("     Julia                           : 2 (suit la souris, ");
+	ft_putstr("plusieurs iterations)\n");
+	ft_putstr("     Carpet                          : 3\n");
+	ft_putstr("     B_ship                          : 4 \n");
+	ft_putstr("(plusieurs iterations)\n");
+	ft_putstr("     Mandelbar                       : 5 \n");
+	ft_putstr("(plusieurs iterations)\n");
+	ft_putstr("nombre d'iteration                   = ");
+	ft_putnbr(e->ftl_ptr->iter_max);
+	ft_putstr("\n");
+	ftl_key_hook_change_color(keycode, e);
+}

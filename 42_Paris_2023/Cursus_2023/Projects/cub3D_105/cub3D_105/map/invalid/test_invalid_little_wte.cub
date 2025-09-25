@@ -1,0 +1,13 @@
+NO ./src/textures/roc.xp
+SO ./src/textures/roc.xp
+WE ./src/textures/roc.xp
+EA ./src/textures/roc.xp
+
+F 220,100,0
+C 225,30,0
+
+11111111
+10001001
+10010001
+101111N1
+111  111

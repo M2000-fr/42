@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Dossier -->
+  <path d="M4 16c0-2.2 1.8-4 4-4h16l4 4h28c2.2 0 4 1.8 4 4v32c0 2.2-1.8 4-4 4H8c-2.2 0-4-1.8-4-4V16z" fill="#2196F3" stroke="#1976D2" stroke-width="2"></path>
+
+  <!-- Logo 42 en image (base64) -->
+  <image x="38" y="38" width="20" height="20" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI... (tronqué pour lisibilité) ..."></image>
+</svg>

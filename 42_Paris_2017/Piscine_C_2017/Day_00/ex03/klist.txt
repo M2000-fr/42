@@ -1,0 +1,6 @@
+Credentials cache: API:F7C3E40E-12AC-40EB-933C-73CCFA357381
+        Principal: maechard@42.FR
+
+  Issued                Expires               Principal
+Mar  6 15:06:31 2017  Mar 13 15:06:31 2017  krbtgt/42.FR@42.FR
+Mar  6 15:20:56 2017  Mar 13 15:06:31 2017  host/vgs-fn1.42.fr@42.FR

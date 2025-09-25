@@ -1,0 +1,8 @@
+N_F="/etc/crontab"
+D_M=$(date -r ${N_F} '+%d/%m/%Y %H:%M')
+M_R="root"
+D="07/03/2018 16:09"
+if [ "${D_M}" != "${D}"]; then
+	MSG="Le fichier ${N_F} a ete modifier le ${D_M}"
+	echo "$MSG" | mail -s "Alerte modification" "${M_R}"
+fi

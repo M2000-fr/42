@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Dossier -->
+  <path d="M4 16c0-2.2 1.8-4 4-4h16l4 4h28c2.2 0 4 1.8 4 4v32c0 2.2-1.8 4-4 4H8c-2.2 0-4-1.8-4-4V16z" fill="#FFC107" stroke="#FFA000" stroke-width="2"></path>
+
+  <!-- Roue dentée -->
+  <circle cx="48" cy="44" r="6" stroke="#555" stroke-width="2" fill="#eee"></circle>
+  <path d="M48 36v2M48 50v2M42 44h-2M54 44h2M44.2 39.8l-1.4-1.4M51.2 48.2l1.4 1.4M44.2 48.2l-1.4 1.4M51.2 39.8l1.4-1.4" stroke="#555" stroke-width="2"></path>
+
+  <!-- Barre de progression -->
+  <rect x="10" y="42" width="24" height="6" rx="2" fill="#ccc"></rect>
+  <rect x="10" y="42" width="14" height="6" rx="2" fill="#4CAF50"></rect>
+</svg>
