@@ -19,7 +19,7 @@
 
 The **42_Paris** repository is a central hub that gathers multiple cursus and personal projects developed at the **42 Paris School of Programming**. It is organized into three main sections:  
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris_2017/tree/main_sub"><img src=".assets/images/42_Paris_2017_title_banner.png" alt="42_Paris_2017" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/42_Paris_2023"><img src=".assets/images/42_Paris_2023_title_banner.png" alt="42_Paris_2023" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/Mechard-Organization/Others/tree/main_sub"><img src=".assets/images/Others_title_banner.png" alt="Others" width="200"></a>
+  <a href="https://github.com/M2000-fr/42/tree/main/42_Paris_2017"><img src=".assets/images/42_Paris_2017_title_banner.png" alt="42_Paris_2017" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/M2000-fr/42/tree/main/42_Paris_2023"><img src=".assets/images/42_Paris_2023_title_banner.png" alt="42_Paris_2023" width="200"></a>
 </p>
 
 This structure allows a clear separation between different cursus generations and additional personal work. Each section contains exercises, projects, and resources reflecting the student journey at 42.
@@ -27,12 +27,12 @@ This structure allows a clear separation between different cursus generations an
 ---
 
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris_2017/tree/main_sub">
+  <a href="https://github.com/M2000-fr/42/tree/main/42_Paris_2017">
     <img src=".assets/images/42_Paris_2017_title_banner.png" alt="42_Paris_2017" width="200">
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/.assets/tree/42_Paris_2017.md">
+  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main/.assets/tree/42_Paris_2017.md">
     <img src=".assets/images/White_tree.png" alt="tree" width="50">
   </a>
 </p>
@@ -49,12 +49,12 @@ This section is particularly useful for tracing the origins of the 42 training a
 ---
 
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/42_Paris_2023">
+  <a href="https://github.com/M2000-fr/42/tree/main/42_Paris_2023">
     <img src=".assets/images/42_Paris_2023_title_banner.png" alt="42_Paris_2023" width="200">
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/.assets/tree/42_Paris_2023.md">
+  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main/.assets/tree/42_Paris_2023.md">
     <img src=".assets/images/White_tree.png" alt="tree" width="50">
   </a>
 </p>
@@ -71,28 +71,6 @@ This section provides insight into the current state of the 42 cursus and highli
 
 ---
 
-<p align="center">
-  <a href="https://github.com/Team-mechard/Others/tree/main_sub">
-    <img src=".assets/images/Others_title_banner.png" alt="Others" width="200">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/.assets/tree/Others.md">
-    <img src=".assets/images/White_tree.png" alt="tree" width="50">
-  </a>
-</p>
-
-The **Others** folder gathers **personal projects** and experiments carried out at 42, outside the strict cursus requirements. It serves as a sandbox where custom scripts, utilities, and extra learning exercises are stored.
-
-Main content includes:
-- Personal automation scripts (e.g., helper commands, custom tooling).  
-- Experimental projects that go beyond the official 42 curriculum.  
-- Supplementary learning material and resources created during the cursus.  
-
-This section showcases creativity, independence, and the extension of official training into personal exploration, embodying the spirit of continuous self-learning.
-
----
-
 <details>
   <summary align="center"><strong>Choose a folder</strong></summary>
 
@@ -100,7 +78,7 @@ This section showcases creativity, independence, and the extension of official t
 
   <br>
   <p align="center">
-    <a href="https://github.com/Mechard-Organization/42_Paris_2017/tree/main_sub"><img src=".assets/images/42_Paris_2017_title_banner.png" alt="42_Paris_2017" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/Mechard-Organization/42_Paris/tree/main_42_Paris/42_Paris_2023"><img src=".assets/images/42_Paris_2023_title_banner.png" alt="42_Paris_2023" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/Team-mechard/Others/tree/main_sub"><img src=".assets/images/Others_title_banner.png" alt="Others" width="200"></a>
+    <a href="https://github.com/M2000-fr/42/tree/main/42_Paris_2017"><img src=".assets/images/42_Paris_2017_title_banner.png" alt="42_Paris_2017" width="200"></a>&nbsp;&nbsp;<a href="https://github.com/Mechard-Organization/42_Paris/tree/main/42_Paris_2023"><img src=".assets/images/42_Paris_2023_title_banner.png" alt="42_Paris_2023" width="200"></a>
   </p>
   
   </div> 
