@@ -32,7 +32,7 @@ This structure allows a clear separation between different cursus generations an
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main/.assets/tree/42_Paris_2017.md">
+  <a href="https://github.com/M2000-fr/42/tree/main/.assets/tree/42_Paris_2017.md">
     <img src=".assets/images/White_tree.png" alt="tree" width="50">
   </a>
 </p>
@@ -54,7 +54,7 @@ This section is particularly useful for tracing the origins of the 42 training a
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Mechard-Organization/42_Paris/tree/main/.assets/tree/42_Paris_2023.md">
+  <a href="https://github.com/M2000-fr/42/tree/main/.assets/tree/42_Paris_2023.md">
     <img src=".assets/images/White_tree.png" alt="tree" width="50">
   </a>
 </p>
