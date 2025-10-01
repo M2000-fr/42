@@ -71,7 +71,7 @@ This section provides insight into the current state of the 42 cursus and highli
 
 ---
 
-<details>
+<details align="center">
   <summary align="center"><strong>Choose a folder</strong></summary>
 
   <div align="center">
